@@ -4,8 +4,8 @@ jobs:
   os-details:
     runs-on: self-hosted
     steps:
-      - name: print worknig directory
-        run: pwd
+      - name: install nginx
+        run: sudo apt install nginx -y
       - name: print os details
         run: cat /etc/os-release
       - name: print username
