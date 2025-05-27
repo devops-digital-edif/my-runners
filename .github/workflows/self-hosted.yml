@@ -1,4 +1,4 @@
-name: github runner
+name: self hosted runner
 on: workflow_dispatch
 jobs:
   os-details:
